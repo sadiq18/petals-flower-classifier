@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Data
+data/
+*.tfrec
+*.tfrecord
+
+# Models / checkpoints
+*.pth
+*.pt
+*.safetensors
+
+# Kaggle
+kaggle/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Submission
+submission.csv
+
+# Misc
+logs/
+wandb/
